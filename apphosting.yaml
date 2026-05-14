@@ -1,0 +1,12 @@
+# Firebase AppHosting configuration
+# For more info: https://firebase.google.com/docs/app-hosting/configure
+kind: "AppHostingConfig"
+schemaVersion: "v1"
+
+runConfig:
+  minInstances: 0
+  maxInstances: 2
+  cpu: 1
+  memoryMiB: 1024
+ 
+env:
